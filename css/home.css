@@ -1,0 +1,515 @@
+div {
+    word-break: break-all;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(164, 218, 218, 0.8);
+    
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.loginCard {
+    padding: 0 !important;
+    max-height: 700px;
+    min-height: 500px;
+    width: 1000px !important;
+    height: 80vh !important;
+    
+    background: rgb(248, 248, 248);
+    border-radius: 50px;
+
+    overflow: hidden;
+    position: relative;
+
+    margin-top: 120px;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.hCenter {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.vCenter {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    width: 150px;
+    height: 75px;
+
+    background: rgba(170, 245, 245, 0.8);
+    border-radius: 50px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.buttonText {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding-top: 10px;
+}
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+
+    height: 455px;
+    width: 950px;
+    
+    background: rgba(170, 245, 245, 0.8);
+    border-radius: 50px;
+
+    justify-content: center;
+
+    padding: 100px;
+    text-align:center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    height: 575px;
+    width: 950px;
+    
+    background: rgba(170, 245, 245, 0.8);
+    border-radius: 50px;
+
+    justify-content: flex-start;
+
+    position: static;
+}
+
+.subtitle {
+    height: 50px !important;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 15px;
+    
+    position: static;
+}
+
+.moveBar {
+
+    width: 950px;
+    height: 50px;
+
+    background: rgb(248, 248, 248);
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+    position: static;
+}
+
+.barItem {
+    padding-top: 10px;
+    
+    width:80px;
+    background: rgb(220, 220, 220);
+
+    display:flex;
+    justify-content:center;
+}
+
+.mainText {
+
+    height: 500px;
+    width: 950px;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow: auto;
+    
+}
+
+.tableStyle {
+    width: 900px;
+
+    text-align: center;
+}
+
+.ta {
+    width: 200px;
+    height: 50px;
+
+    resize: none;
+}
+.inputText {
+    width: 100%;
+}
+
+
+.imageMargin {
+    margin-bottom:20px;
+    width: 800px;
+}
+.imageCenter {
+    text-align:center;
+}
+
+.PosterContainer {
+    margin:20px;
+}
+
+.centerPoster {
+    text-align:center;
+}
+
+.persentage {
+
+    width: 700px;
+    height: 50px;
+    background: rgba(170, 245, 245, 0.8);
+    border-radius: 20px;
+    margin-top : 20px;
+}
+
+.bar {
+    width: 650px;
+    height: 20px;
+    background: rgb(231, 231, 231);
+}
+
+.gauge1_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 59px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge2_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 118px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge3_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 177px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge4_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 236px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge5_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 295px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge6_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 355px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge7_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 414px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge8_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 473px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge9_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 532px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge10_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 591px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge1_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 72px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge2_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 144px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge3_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 217px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge4_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 289px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge5_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 361px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge6_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 433px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge7_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 506px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge8_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 578px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge1_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 36px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge2_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 72px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge3_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 108px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge4_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 144px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge5_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 181px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge6_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 217px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge7_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 253px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge8_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 289px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge9_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 325px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge10_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 361px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge11_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 397px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge12_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 433px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge13_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 469px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge14_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 506px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge15_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 542px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge16_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 578px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge17_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 614px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge100 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 650px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
